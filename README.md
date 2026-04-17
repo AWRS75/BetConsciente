@@ -51,7 +51,8 @@ Para rodar este projeto localmente (seja no Zorin OS ou em outro ambiente), voc�
 
 ## ✒️ Autor<img width="547" height="936" alt="BetConsciente tela de 2026-04-17 13-52-52" src="https://github.com/user-attachments/assets/92ca91eb-2990-4a10-996a-b45642a05b15" />
 
-Desenvolvido por **Alexandre Wilfred**.
+Desenvolvido por **Alexandre Wilfred , Paulo Cesar Oliveira dos Santos,
+Gabriel Luca Brauna Bezerra**.
 ```
 
 ### Dicas extras para este repositório:
