@@ -1,0 +1,5 @@
+/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/appBetConsciente.dir
+/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/edit_cache.dir
+/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/appBetConsciente_autogen_timestamp_deps.dir
+/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/appBetConsciente_autogen.dir

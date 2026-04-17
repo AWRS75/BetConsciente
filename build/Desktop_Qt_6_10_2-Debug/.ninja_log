@@ -1,0 +1,20 @@
+# ninja log v6
+3	21	1776280225952725051	appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+3	21	1776280225952725051	appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+3	21	1776280225952725051	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+3	21	1776280225952725051	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+21	30	1776280225956686464	CMakeFiles/appBetConsciente.dir/appBetConsciente_autogen/mocs_compilation.cpp.o	41f93893af42b932
+22	1676	1776280225956725723	CMakeFiles/appBetConsciente.dir/main.cpp.o	af5e3202b47cdf3b
+1676	2163	1776280227611711826	appBetConsciente	55429acb886f036c
+6	23	1776286617506810902	appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+6	23	1776286617506810902	appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+6	23	1776286617506810902	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+6	23	1776286617506810902	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+23	2245	1776286617523826996	CMakeFiles/appBetConsciente.dir/main.cpp.o	af5e3202b47cdf3b
+2245	2789	1776286619745645377	appBetConsciente	55429acb886f036c
+7	33	1776286660092881788	appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+7	33	1776286660092881788	appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+7	33	1776286660092881788	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/timestamp	4918ee7cdd09cfd5
+7	33	1776286660092881788	/home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente_autogen/mocs_compilation.cpp	4918ee7cdd09cfd5
+33	2690	1776286660118881869	CMakeFiles/appBetConsciente.dir/main.cpp.o	af5e3202b47cdf3b
+2690	3151	1776286662775889236	appBetConsciente	55429acb886f036c

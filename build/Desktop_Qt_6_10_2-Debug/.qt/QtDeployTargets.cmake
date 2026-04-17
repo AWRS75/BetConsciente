@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appBetConsciente_FILE /home/awrs/Área de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug/appBetConsciente)
+set(__QT_DEPLOY_TARGET_appBetConsciente_TYPE EXECUTABLE)

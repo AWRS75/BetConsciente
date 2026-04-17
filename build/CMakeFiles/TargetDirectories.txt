@@ -1,0 +1,5 @@
+/home/awrs/Área de trabalho/BetConsciente/build/CMakeFiles/appBetConsciente.dir
+/home/awrs/Área de trabalho/BetConsciente/build/CMakeFiles/edit_cache.dir
+/home/awrs/Área de trabalho/BetConsciente/build/CMakeFiles/rebuild_cache.dir
+/home/awrs/Área de trabalho/BetConsciente/build/CMakeFiles/appBetConsciente_autogen_timestamp_deps.dir
+/home/awrs/Área de trabalho/BetConsciente/build/CMakeFiles/appBetConsciente_autogen.dir

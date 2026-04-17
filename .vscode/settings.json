@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"/home/awrs/Área de trabalho/BetConsciente\" && echo 'PWD:' \"\\$PWD\" && which g\\+\\+ && g\\+\\+ --version 2>/dev/null \\|\\| true && find /usr -maxdepth 3 -type f \\\\\\( -name 'qmake\\*' -o -name 'pkg-config' \\\\\\) 2>/dev/null \\| head -20 && pkg-config --modversion Qt6Widgets 2>/dev/null \\|\\| true$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"/home/awrs/Área de trabalho/BetConsciente\" && file output/main && ldd output/main \\| grep -E 'Qt6\\|not found' \\|\\| true && \\./output/main >/dev/null 2>&1 & echo \\$!$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

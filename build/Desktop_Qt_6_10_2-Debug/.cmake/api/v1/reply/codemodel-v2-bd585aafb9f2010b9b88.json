@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BetConsciente",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "appBetConsciente::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBetConsciente-Debug-8518c34a06b11aa6a53e.json",
+					"name" : "appBetConsciente",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBetConsciente_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBetConsciente_autogen-Debug-cbbd749e484115f78d70.json",
+					"name" : "appBetConsciente_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBetConsciente_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBetConsciente_autogen_timestamp_deps-Debug-86d02fe260a7b2b99946.json",
+					"name" : "appBetConsciente_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/awrs/\u00c1rea de trabalho/BetConsciente/build/Desktop_Qt_6_10_2-Debug",
+		"source" : "/home/awrs/\u00c1rea de trabalho/BetConsciente"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
