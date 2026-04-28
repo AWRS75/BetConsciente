@@ -12,19 +12,35 @@
 #include <QPixmap>
 #include <QColor>
 
+#include <QScreen>
+#include <QGuiApplication>
+
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
+
+    // Obter tamanho da tela disponível
+    QScreen *screen = QGuiApplication::primaryScreen();
+    QRect screenGeometry = screen->availableGeometry();
+    int screenWidth = screenGeometry.width();
+    int screenHeight = screenGeometry.height();
+
+    // Calcular tamanhos proporcionais (70% da tela)
+    int windowWidth = screenWidth * 0.7;
+    int windowHeight = screenHeight * 0.8;
+    int cardWidth = windowWidth * 0.85;
+    int cardHeight = windowHeight * 0.9;
+    int logoSize = cardWidth * 0.6; // Logo ocupa 60% da largura do card
 
     // --- Janela Principal ---
     QWidget window;
     window.setWindowTitle("App - BetConsciente");
-    window.setFixedSize(550, 900);
+    window.setFixedSize(windowWidth, windowHeight);
     window.setStyleSheet("background-color: #e3f2fd;");
 
     // --- Container central (Card) ---
     QWidget *card = new QWidget(&window);
-    card->setFixedSize(480, 800);
-    card->move(35, 50);
+    card->setFixedSize(cardWidth, cardHeight);
+    card->move((windowWidth - cardWidth) / 2, (windowHeight - cardHeight) / 2);
     card->setStyleSheet("QWidget { background-color: white; border-radius: 15px; }");
 
     QGraphicsDropShadowEffect *shadow = new QGraphicsDropShadowEffect();
@@ -44,9 +60,9 @@ int main(int argc, char *argv[]) {
 
     // --- Logo ---
     QLabel *logo = new QLabel();
-    QPixmap pixmap("logo.png"); // Carrega do arquivo direto
+    QPixmap pixmap(":/logo.png"); // Carrega do recurso incorporado
     if (!pixmap.isNull()) {
-        logo->setPixmap(pixmap.scaled(300, 300, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+        logo->setPixmap(pixmap.scaled(logoSize, logoSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
         logo->setAlignment(Qt::AlignCenter);
     } else {
         logo->setText("BetConsciente"); // Fallback para texto se a imagem não for encontrada
