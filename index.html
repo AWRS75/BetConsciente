@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>BetConsciente - Equilíbrio e Bem-estar</title>
+    
+    <!-- External Dependencies -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" />
+
+    <!-- React & Router -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/history@5/umd/history.development.js"></script>
+    <script src="https://unpkg.com/react-router@6.3.0/umd/react-router.development.js"></script>
+    <script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
+    <script src="./js/babel.min.js"></script>
+    
+    <!-- App Configuration -->
+    <script src="./js/config.js"></script>
+    <script id="tailwind-config">
+        tailwind.config = window.TAILWIND_CONFIG;
+    </script>
+</head>
+
+<body class="bg-surface text-on-surface">
+    <div id="root"></div>
+
+    <!-- App Components -->
+    <script type="text/babel" src="./js/components/shared.js"></script>
+    <script type="text/babel" src="./js/components/screens.js"></script>
+    <script type="text/babel" src="./js/components/dashboard.js"></script>
+    <script type="text/babel" src="./js/components/avaliacao.js"></script>
+    <script type="text/babel" src="./js/components/diario.js"></script>
+    <script type="text/babel" src="./js/components/support.js"></script>
+    <script type="text/babel" src="./js/router.js"></script>
+
+    <!-- App Initialization -->
+    <script type="text/babel">
+        const { createRoot } = ReactDOM;
+        const root = createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

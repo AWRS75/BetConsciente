@@ -1,0 +1,90 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100dvh;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .fill-icon {
+            font-variation-settings: 'FILL' 1;
+        }
+
+        @keyframes fadeInScale {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes rotateSpinner {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animate-fade-in-scale {
+            animation: fadeInScale 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+
+        .animate-fade-in-up {
+            animation: fadeInUp 1s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
+            opacity: 0;
+        }
+
+        .animate-fade-in-delayed {
+            animation: fadeInUp 1s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards;
+            opacity: 0;
+        }
+
+        .custom-spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid transparent;
+            border-top-color: currentColor;
+            border-radius: 50%;
+            animation: rotateSpinner 1s linear infinite;
+        }
+
+        .logo-glow {
+            filter: blur(40px);
+            background: radial-gradient(circle, rgba(0, 106, 97, 0.15) 0%, transparent 70%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .scroll-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background: #0d9488;
+            cursor: pointer;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        }

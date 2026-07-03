@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width:100%; max-width:420px; height:180px;">
+  <canvas id="usageChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('usageChart');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB', 'HOJE'],
+      datasets: [{
+        data: [52, 68, 61, 74, 58, 49, 72],
+        borderColor: '#0F766E',
+        backgroundColor: 'rgba(15, 118, 110, 0.10)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: [0, 0, 0, 0, 0, 0, 5],
+        pointHoverRadius: 6,
+        pointBackgroundColor: '#0F766E',
+        pointBorderColor: '#ffffff',
+        pointBorderWidth: 2,
+        borderWidth: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          displayColors: false,
+          backgroundColor: '#0b2239',
+          titleColor: '#fff',
+          bodyColor: '#fff',
+          callbacks: {
+            label: (context) => `${context.raw} min`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { display: false },
+          ticks: {
+            color: (ctx) => ctx.index === 6 ? '#0F766E' : '#7A7A7A',
+            font: (ctx) => ({
+              weight: ctx.index === 6 ? '700' : '500'
+            })
+          }
+        },
+        y: {
+          display: false,
+          grid: { display: false },
+          border: { display: false }
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
